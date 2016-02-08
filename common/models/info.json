@@ -1,0 +1,40 @@
+{
+  "name": "Info",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "Name": {
+      "type": "string",
+      "id": false,
+      "required": true,
+      "index": true
+    },
+    "Location": {
+      "type": "string",
+      "required": true,
+      "index": true
+    },
+    "Website": {
+      "type": "any"
+    },
+    "StudentStrength": {
+      "type": "number",
+      "index": true
+    },
+    "propertyName97": {
+      "type": "string"
+    },
+    "OfferedCourses": {
+      "type": "string",
+      "index": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

@@ -1,0 +1,17 @@
+{
+  "db": {
+    "password": "",
+    "name": "db",
+    "connector": "memory",
+    "user": ""
+  },
+  "Infodb": {
+    "host": "127.0.0.1",
+    "port": 3600,
+    "database": "schooldb",
+    "password": "IAMUJJWAL",
+    "name": "Infodb",
+    "connector": "mysql",
+    "user": "schools"
+  }
+}
